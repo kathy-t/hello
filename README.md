@@ -1,4 +1,4 @@
-Hello world script
+hello-nextflow-workflow
 ====================
 
-A simple script showing the basic Hello World! example for the Nextflow framework. 
+A repo for testing nextflow workflow validation on Dockstore. This repo contains a simple hello world nextflow workflow.
