@@ -6,6 +6,8 @@ process sayHello {
   echo true
   input: 
     val x from cheers
+  when:
+    1 == 1
   script:
     """
     echo '$x world!'
