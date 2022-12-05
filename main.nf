@@ -1,6 +1,6 @@
 #!/usr/bin/env nextflow
 
-cheers = Channel.from 'Bonjour', 'Ciao', 'Hello', 'Hola'
+cheers = Channel.from 'Bonjour', 'Ciao', 'Hello', 'Ho  la'
 
 nextflow.enable.dsl = 2
 
