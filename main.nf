@@ -1,8 +1,8 @@
 #!/usr/bin/env nextflow
 
-nextflow.enable.dsl = 2
-
 cheers = Channel.from 'Bonjour', 'Ciao', 'Hello', 'Hola'
+
+nextflow.enable.dsl = 2
 
 process sayHello {
   echo true
