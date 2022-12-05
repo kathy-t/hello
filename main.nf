@@ -2,7 +2,7 @@
 
 nextflow.enable.dsl = 2
 
-cheers = Channel.from 'Bonjour', 'Ciao', 'Hello', 'Hola'
+cheers = Channel.from 'Bonjour', 'Ciao', 'Hello', 'Holaa'
 
 process sayHello {
   echo true
